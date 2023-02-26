@@ -3,49 +3,90 @@
     padding: none;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-}
+    }
 
 header{
     background-color: #1B83E2;
+    height: 66px;
+    width: 100vw;
+    align-items: center;
+    margin-top: none;
+    
+}
+
+h1{
+    /* position: absolute; */
+    margin: 0px;
+    text-align: center;    
     font-weight: 400;
     font-size: 24px;
-    line-height: 18px;
-    align-items: center;
     color: #F4F4F4;
+    
+}
+
+main{
+    margin: 0px 24px;
+    display: block;
 }
 
 label{
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
     color: #777777;
+    margin-top: 23px;
+    display: block;
+
 }
 
-option{
+select, input{
     font-weight: 400;
     font-size: 16px;
     color: #555555;
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block;
 }
 
 p{ 
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
+    margin-bottom: 3px;
     color: #777777;
-}
-
-input{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    color: #555555;
 }
 
 button{
     font-weight: 700;
     font-size: 16px;
-    line-height: 18px;
     align-items: center;
     color: #F4F4F4;
     background-color: #1B83E2;
+    width: 327px;
+    height: 48px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 24px;
+}
+
+section{
+    border: 1px solid #1B83E2;
+    margin: 36px 0px 32px;
+    width: 327px;
+    text-align: center;
+    padding: 13px;
+}
+
+.moneyValue{
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+    color: #1B83E2;
+    margin-top: 3px;
+}
+
+.arrow{
+    margin: 13px 0px;
+
 }
