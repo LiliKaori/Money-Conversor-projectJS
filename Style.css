@@ -1,0 +1,51 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1B83E2;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    align-items: center;
+    color: #F4F4F4;
+}
+
+label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+option{
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+}
+
+p{ 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+input{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555555;
+}
+
+button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    color: #F4F4F4;
+    background-color: #1B83E2;
+}
