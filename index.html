@@ -19,14 +19,14 @@
         </header>
 
         <main>
-            <label>
+            <label for="currencyReal">
                 Convert <b>from:</b>
-                <select>
+                <select id="currencyReal">
                     <option> <b>R$</b> Brazillian Real</option>
                 </select>
             </label>
 
-            <label>
+            <label for="currencySelect">
                 Convert <b>to</b>:
                 <select id="currencySelect">
                     <option>US$ American Dollar</option>
@@ -35,10 +35,11 @@
                 </select>
             </label>
 
-            <p>Value:</p>
+
+            <label for="inputReal">Value:</label>
             <input id="inputReal" placeholder="R$ 10.000,00">
             <button id="convertButton" type="button">Convert</button>
-           
+
             <section>
 
                 <div>
@@ -59,4 +60,5 @@
     </div>
 </body>
 <script src="./script.js"></script>
+
 </html>
