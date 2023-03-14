@@ -17,34 +17,34 @@ const convertValues = async () => {
     const yen = data.JPYBRL.high
     const yuan = data.CNYBRL.high
 
-    realValueText.innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(inputReais)
+    realValueText.innerHTML = new Intl.NumberFormat('en', { style: 'currency', currency: 'BRL' }).format(inputReais)
 
     if (select.value == "US$ American Dollar") {
-        currencyValueText.innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'USD' }).format(inputReais / dollar)
+        currencyValueText.innerHTML = new Intl.NumberFormat('en', { style: 'currency', currency: 'USD' }).format(inputReais / dollar)
     }
 
     if (select.value == "€ Euro") {
-        currencyValueText.innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'EUR' }).format(inputReais / euro)
+        currencyValueText.innerHTML = new Intl.NumberFormat('en', { style: 'currency', currency: 'EUR' }).format(inputReais / euro)
     }
 
     if (select.value == "BTC Bitcoin") {
-        currencyValueText.innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BTC' }).format(inputReais / bitcoin)
+        currencyValueText.innerHTML = new Intl.NumberFormat('en', { style: 'currency', currency: 'BTC' }).format(inputReais / bitcoin)
     }
 
     if (select.value == "CA$ Canadian Dollar") {
-        currencyValueText.innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'CAD' }).format(inputReais / dollarC)
+        currencyValueText.innerHTML = new Intl.NumberFormat('en', { style: 'currency', currency: 'CAD' }).format(inputReais / dollarC)
     }
 
     if (select.value == "ARS Argentine Peso") {
-        currencyValueText.innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'ARS' }).format(inputReais / peso)
+        currencyValueText.innerHTML = new Intl.NumberFormat('en', { style: 'currency', currency: 'ARS' }).format(inputReais / peso)
     }
 
     if (select.value == "JP¥ Yen") {
-        currencyValueText.innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'JPY' }).format(inputReais / yen)
+        currencyValueText.innerHTML = new Intl.NumberFormat('en', { style: 'currency', currency: 'JPY' }).format(inputReais / yen)
     }
 
     if (select.value == "CN¥ Yuan") {
-        currencyValueText.innerHTML = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'CNY' }).format(inputReais / yuan)
+        currencyValueText.innerHTML = new Intl.NumberFormat('en', { style: 'currency', currency: 'CNY' }).format(inputReais / yuan)
     }
 }
 
