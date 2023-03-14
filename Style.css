@@ -13,7 +13,7 @@ body{
     width: 375px;
     background-color: #F4F4F4;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 header{
@@ -24,18 +24,17 @@ header{
 }
 
 h1{
-    /* position: absolute; */
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     color: #F4F4F4;
     text-align: center;
-    padding: 20px;
+    padding: 20px;    
 }
 
 main{
-    padding: 0 24px;
-    display: block;
+    padding: 0 24px 24px;
+    display: block;    
 }
 
 label{
@@ -96,7 +95,7 @@ button:active{
 
 section{
     border: 1px solid #1B83E2;
-    margin: 36px 0px 32px;
+    margin-top: 36px;
     width: 100%;
     text-align: center;
     padding: 13px;
