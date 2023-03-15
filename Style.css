@@ -1,26 +1,30 @@
 *{
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     }
 
 body{
+    height: 100vh;
     background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }    
 
 .container{
     width: 375px;
     background-color: #F4F4F4;
-    margin: 0 auto;
-    margin-top: 50px;
+    
 }
 
 header{
     background-color: #1B83E2;
-    height: 66px;
+    height: 66px;    
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: none;    
 }
 
 h1{
@@ -28,8 +32,6 @@ h1{
     font-weight: normal;
     font-size: 24px;
     color: #F4F4F4;
-    text-align: center;
-    padding: 20px;    
 }
 
 main{
@@ -41,7 +43,7 @@ label{
     font-weight: 400;
     font-size: 14px;
     color: #777777;
-    margin-top: 23px;
+    margin-top: 24px;
     display: block;
 
 }
@@ -61,7 +63,6 @@ select, input{
     appearance: none;
     padding: 14px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
-
 }
 
 p{ 
@@ -73,8 +74,7 @@ p{
 
 button{
     font-weight: 700;
-    font-size: 16px;
-    align-items: center;
+    font-size: 18px;    
     color: #F4F4F4;
     background-color: #1B83E2;
     width: 100%;
@@ -96,20 +96,23 @@ button:active{
 section{
     border: 1px solid #1B83E2;
     margin-top: 36px;
-    width: 100%;
-    text-align: center;
+    width: 100%;    
     padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4px;
+}
+
+.currencyInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
 }
 
 .moneyValue{
     font-weight: 700;
-    font-size: 20px;
-    align-items: center;
+    font-size: 20px;    
     color: #1B83E2;
-    margin-top: 3px;
-}
-
-.arrow{
-    margin: 13px 0px;
-
 }
